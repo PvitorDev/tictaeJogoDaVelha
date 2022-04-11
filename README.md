@@ -28,14 +28,26 @@ Tic-tac-toe for my JavaScript mini course
 <p align='center'> 
 <img width='600' src='https://github.com/PvitorDev/tictaeJogoDaVelha/blob/main/src/assets/2022-04-11%2009-41-28%20(1).gif'
 </p>
+      
+ - Para começar a jogar, clique em 'VSPLAYER' ou 'VSCOM' (Sem funcionalidade) 
+ 
+            -To start playing, click on 'VSPLAYER' or 'VSCOM' (No functionality);
 
+**JOGO DA VELHA =** Tic Tac Toe
+
+**RECOMEÇAR =** Restart
+
+**PONTOS =** Points 
+
+**LIMPAR PONTOS =** Clear Points 
+      
 ## Descrição - Description 
 
 - Projeto feito para ensinar o uso de funções no javascript ;
          
          -Project made to teach the use of functions in javascript; 
 
-## Autor 
+## Autor - Author
 
 - Paulo Vitor 
 
