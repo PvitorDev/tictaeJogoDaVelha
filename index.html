@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+  <div id="container-page">
+    <h1>JOGO DA VELHA</h1>
+    <div class="btn0">
+      <button id="btn-com">VS COM</button>
+      <button id="btn-play">VS PLAYER</button>
+      <button id="btn-reload">RECOMEÇAR</button>
+      
+    </div>
+
+    <div class="board"id="board">
+      <div class="squares"id="square0"></div>
+      <div class="squares"id="square1"></div>
+      <div class="squares"id="square2"></div>
+      <div class="squares"id="square3"></div>
+      <div class="squares"id="square4"></div>
+      <div class="squares"id="square5"></div>
+      <div class="squares"id="square6"></div>
+      <div class="squares"id="square7"></div>
+      <div class="squares"id="square8"></div>
+    </div>
+    <div class="score">
+      <div id="container-score">
+        <h2 id="score">Score</h2>
+        <h3 id="player">Player:</h3>
+        <div id="container-player1">
+          <div class="txt-point">Pontos:</div>
+          <div id="point-player1">0</div>
+          <h3 class="txt-player">Player X</h3>
+        </div>
+        <div id="container-player2">
+          <div class="txt-point">Pontos:</div>
+          <div id="point-player2">0</div>
+          <h3 class="txt-player">Player O</h3>
+        </div>
+        <h3 id="last"></h3>
+
+        <button id="clear-points">Limpar pontos</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="src/button.js"></script>
+<script src="src/functions.js"></script>
+  <script src="src/tictac.js"></script>
+</body>
+</html>
